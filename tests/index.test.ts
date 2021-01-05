@@ -16,4 +16,4 @@ describe('sum3 should calculate a sum properly', () => {
   test('three negative numbers', () => {
     expect(sum3(3, -4, -5)).toBe(-6);
   });
-});"@babel/preset-env"
+});
