@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "composite": true,
     "target": "ES2018",                    
     "module": "commonjs",                     
     "declaration": true,                      
@@ -11,7 +12,7 @@
     "noImplicitReturns": true,             
     "stripInternal": true, 
     "types": [],                        
-    "forceConsistentCasingInFileNames": true 
+    "forceConsistentCasingInFileNames": true,
   },
   "include": ["src", "tsconfig.eslint.json"]
 }
